@@ -11,7 +11,7 @@ import sys
 
 
 def get_args():
-    parser = argparse.ArgumentParser(description="Speed Check HRNet",
+    parser = argparse.ArgumentParser(description="onnx2trt mulitple",
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--model_paths",type=str,nargs='+',default="",help="convert model paths")
     args = parser.parse_args()

@@ -40,7 +40,7 @@ def build_engine(onnx_file_path, engine_file_path):
         return engine
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='ArcFace PyTorch to onnx')
+    parser = argparse.ArgumentParser(description='onnx2trt v7')
     parser.add_argument('input', type=str, help='input model.onnx file')
     parser.add_argument('--output', type=str, default=None, help='output trt path')
     args = parser.parse_args()
