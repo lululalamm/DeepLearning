@@ -1,0 +1,1 @@
+from .vitpose import VitPose

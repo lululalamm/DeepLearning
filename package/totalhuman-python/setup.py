@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 install_requires=[]
 
-setup(name='totalhuman_python',
+setup(name='totalhuman',
         version='0.0.1',
         description='totalhuman gpu package',
         author='lululalamm',
