@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: totalface
+Version: 0.0.1
+Summary: totalface gpu package
+Author: lululalamm
+Author-email: yms2109@gmail.com
+Requires-Python: >=3
