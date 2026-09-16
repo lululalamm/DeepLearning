@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---- Packaging / build artifacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+develop-eggs/
+*.egg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Model weights & large binaries ----
+# (keep only small demo weights that are intentionally committed)
+*.pth
+*.pt
+*.onnx
+*.trt
+*.engine
+*.caffemodel
+*.tflite
+*.pb
+*.h5
+*.pkl
+*.npy
+*.bin
+*.weights
+
+# ---- Logs / outputs ----
+*.log
+logs/
+runs/
+output/
+outputs/
+saved_logs/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

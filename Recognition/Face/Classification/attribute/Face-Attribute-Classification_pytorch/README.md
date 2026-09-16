@@ -34,7 +34,7 @@
 ### 3. Converting model
 
 - torch2onnx
-  : torch2onnx.ipynb 
+  : convert/torch2onnx.ipynb 
 - onnx2openvino (install openvino-dev)
   ```bash
   mo --input_model {onnx model path} --output_dir {openvino model output dir} --input_shape '[1,3,224,224]'

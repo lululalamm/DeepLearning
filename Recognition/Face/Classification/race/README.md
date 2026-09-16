@@ -27,16 +27,9 @@
 - Test command
   ```bash
   # mobilenetv3 (small or large)
-  1. get results
   python test_result_mbn.py --model_path {model_path} --save_name {save_result_name} --load_type {backbone load_type}
-  2. eval
-  python test_race_new.py --result_base {result_directory_path}
-
 
   # mobileFacenet
-  1. get results
   python test_result.py --model_path {model_path} --save_name {save_result_name}
-  2. eval
-  python test_race_new.py --result_base {result_directory_path}
-
   ```
+  - 결과는 `--result_base`(기본 `./test_result/`) 아래 `--save_name`으로 저장되며, 저장된 결과를 이용해 정확도를 평가합니다.

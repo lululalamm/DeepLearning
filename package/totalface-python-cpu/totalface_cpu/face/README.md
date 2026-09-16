@@ -4,11 +4,11 @@ import os
 import numpy as np
 import cv2
 
-from nsface.model_zoo.get_models import get_detection_model,get_recognition_model
-from nsface.face.get_result import get_detection
-from nsface.data import read_image
+from totalface_cpu.model_zoo.get_models import get_detection_model,get_recognition_model
+from totalface_cpu.face.get_result import get_detection
+from totalface_cpu.data import read_image
 
-from nsface.face.blur import face_blur_image,load_tddfa
+from totalface_cpu.face.blur import face_blur_image,load_tddfa
 
 # load models
 # detection model

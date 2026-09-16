@@ -38,15 +38,15 @@
 ### 3. converting
 - torch2onnx
 ```bash
-python torch2onnx.py --input {torch model path} --output {onnx output path} --model_name {backbone name}
+python convert/torch2onnx.py --input {torch model path} --output {onnx output path} --model_name {backbone name}
 ```
 
 
 ### 4. speed check
 ```bash
 1. torch model
-python speed_check.py --model_name {backbone name} --model_path {torch model path}
+python eval/speed_check.py --model_name {backbone name} --model_path {torch model path}
 
 2. converted model (tensorRT, openvino)
-python speed_check_cvt.py --model_path {converted model path} --model_type {trt or vino}
+python eval/speed_check_cvt.py --model_path {converted model path} --model_type {trt or vino}
 ```

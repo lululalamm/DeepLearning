@@ -4,7 +4,7 @@
 - lululalamm
 
 ## explanation
-- A package that can test and evaluate various humam models
+- A package that can test and evaluate various human models
 
 - !pip install totalhuman
 

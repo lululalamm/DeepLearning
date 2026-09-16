@@ -8,7 +8,7 @@
 
     1. crop (based on FaceInTheWild Dataset)
     ``` bash 
-    python crop_pool.py --base {wild list txt path} --prefix {shared prefix path} --tv {Training   Validation ...} --save_base {save dir} --dt_name {detection model name} --dt_path {detection model path}
+    python preprocessing/crop_pool.py --base {wild list txt path} --prefix {shared prefix path} --tv {Training   Validation ...} --save_base {save dir} --dt_name {detection model name} --dt_path {detection model path}
     ```
     2. Create list csv: Create csv by referring to list_txt.ipynb
     3. Edit datasets/database.py and create a class function for dataset
